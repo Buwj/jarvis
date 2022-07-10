@@ -1,0 +1,45 @@
+[[package]]
+category = "main"
+description = "Pure Python, cross platform, single function module with no dependencies for playing sounds."
+name = "playsound"
+optional = false
+python-versions = "*"
+version = "1.2.2"
+
+[[package]]
+category = "main"
+description = "replace '__all__' with '@public.add' decorator"
+name = "public"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "datetime.timedelta replacement"
+name = "timedelta"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+public = "*"
+setuptools = "*"
+
+[metadata]
+content-hash = "5da318124ecd18c69f275c2ec2a1199e8838aa2405b2d0eee86b3708f9d3ce8b"
+python-versions = "^3.8"
+
+[metadata.files]
+playsound = [
+    {file = "playsound-1.2.2-py2.py3-none-any.whl", hash = "sha256:1e83750a5325cbccee03d6e751ba3e78c037ac95b95a3ba1f38d0c5aca9e1a34"},
+]
+public = [
+    {file = "public-2019.4.13.tar.gz", hash = "sha256:e1436a8a99693a9849dfe40b9158f3837b7c309c163b2d3f5b8e9fce23876db1"},
+]
+timedelta = [
+    {file = "timedelta-2019.4.13.tar.gz", hash = "sha256:48a29c2cc4013cd2d0526c39aebfcd8005639f8659219d2dd108ddd98684b2b5"},
+]
